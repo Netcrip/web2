@@ -1,0 +1,238 @@
+body {
+    font-family: 'Edu AU VIC WA NT Pre', sans-serif; /* Tipografía solo para el cuerpo */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+h1, h5, h6 {
+    font-family: 'Delius Swash Caps', cursive; /* Tipografía solo para h1 y h6 */
+    font-weight: 700; 
+    margin: 0.5em 0;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #c5acc5;
+    color: rgb(0, 0, 0);
+    padding: 1em;
+    text-align: center;
+}
+
+.bg-red-custom {
+    background-color: #f8d7da; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* productos */
+.product-cards {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.card {
+    background-color: #ddc1c1;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.card button {
+    background-color: #060e1d;
+    color: white;
+    border: none;
+    padding: 0.5em;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: auto; 
+}
+
+/* contacto */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+label {
+    display: block;
+    margin-top: 1em;
+}
+
+input, textarea, button {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+}
+
+button {
+    background-color: #0044cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .product-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    form {
+        padding: 1em;
+    }
+}
+
+footer {
+    background-color: #c5acc5;
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+    font-weight: bold;
+}
+
+/* reseñas */
+.mainbg{
+    background-color: #f0f8ff;   
+}
+.reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1em;
+    padding: 2em;
+    background-color: #f0f8ff;    
+}
+
+.review {
+    background-color: #fff;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.review img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.review-details {
+    flex: 1;
+}
+
+.review h3 {
+    margin: 0;
+    font-size: 1.1em;
+    color: #333;
+}
+
+.review-date {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.stars {
+    color: #FFD700; 
+    font-size: 1em;
+    margin: 0.5em 0;
+}
+
+.review-text {
+    margin: 0.5em 0 0 0;
+    font-size: 0.95em;
+    line-height: 1.4;
+    color: #555;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2em 0; 
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0; 
+    flex: 1; 
+}
+
+
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+}
+
+
+footer {
+    padding: 1rem 0;
+}
+
+
+#cart {
+    overflow-x: auto;
+}
+
+.animated-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.animated-btn:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}

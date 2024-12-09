@@ -1,0 +1,93 @@
+[
+    {
+        "name": "María López",
+        "date": "Hace una semana",
+        "rating": 5,
+        "review": "¡Excelente calidad y servicio! Sin duda lo recomiendo.",
+        "photo": "https://media.istockphoto.com/id/1389348844/es/foto/foto-de-estudio-de-una-hermosa-joven-sonriendo-mientras-est%C3%A1-de-pie-sobre-un-fondo-gris.jpg?s=612x612&w=0&k=20&c=kUufmNoTnDcRbyeHhU1wRiip-fNjTWP9owjHf75frFQ="
+    },
+    {
+        "name": "Juan Pérez",
+        "date": "Hace 2 semanas",
+        "rating": 5,
+        "review": "Muy satisfecho con mi compra. Gran experiencia.",
+        "photo": "https://thumbs.dreamstime.com/b/retrato-de-un-muchacho-normal-con-los-vidrios-sobre-fondo-gris-30595243.jpg"
+    },
+    {
+        "name": "Laura Fernández",
+        "date": "Hace una semana",
+        "rating": 5,
+        "review": "Gran atención al cliente y productos de calidad.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwNpoWSi1dRcZYTrlzbPb0zmfhh5SBbG2fFg&s"
+    },
+    {
+        "name": "Carlos Herrera",
+        "date": "Hace 3 días",
+        "rating": 5,
+        "review": "Un producto que supera expectativas, lo recomiendo ampliamente.",
+        "photo": "https://thumbs.dreamstime.com/b/no-hay-duda-de-que-se-ve-bien-hombre-sin-afeitar-urbano-al-aire-libre-un-tipo-guapo-con-barba-barberos-barber%C3%ADa-peluquer%C3%ADa-mens-191880439.jpg"
+    },
+    {
+        "name": "Sofía Méndez",
+        "date": "Hace 4 días",
+        "rating": 5,
+        "review": "Calidad inigualable, definitivamente volveré a comprar aquí.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFHPmPXafZyy3z2iVjXPHHLEvDikIuXdVJkA&s"
+    },
+    {
+        "name": "Pedro Alarcón",
+        "date": "Hace 5 días",
+        "rating": 4,
+        "review": "Todo excelente, aunque hubo un pequeño retraso en el envío.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRFVOBLU-M14NNoeCvDRPGZwwmUGa6e-uLsMrEH_cYaIXgoyQ3DywCi0UaUA4VnCEJbM&usqp=CAU"
+    },
+    {
+        "name": "Camila Díaz",
+        "date": "Hace 6 días",
+        "rating": 5,
+        "review": "¡Increíble atención al cliente! Resolvieron todas mis dudas.",
+        "photo": "https://media.istockphoto.com/id/1369508766/es/foto/hermosa-mujer-latina-exitosa-sonriendo.jpg?s=612x612&w=0&k=20&c=f-3MdwiVjpE4UWQdqLC3vpWViYMCiGUPr5aKLCmTnDI="
+    },
+    {
+        "name": "José Martínez",
+        "date": "Hace una semana",
+        "rating": 4,
+        "review": "Muy bueno, aunque el empaque podría mejorar un poco.",
+        "photo": "https://img.freepik.com/foto-gratis/retrato-tipo-nervioso-que-cruza-dedos-tener-suerte-mordiendose-labio-frunciendo-ceno-preocupado-esperando-noticias-importantes-anticipando-resultados-deseando-pararse-sobre-fondo-blanco_176420-53043.jpg"
+    },
+    {
+        "name": "Valeria Gómez",
+        "date": "Hace 2 semanas",
+        "rating": 5,
+        "review": "La mejor experiencia de compra que he tenido, súper recomendado.",
+        "photo": "https://st3.depositphotos.com/12985790/18312/i/450/depositphotos_183124496-stock-photo-portrait-beautiful-young-woman-sitting.jpg"
+    },
+    {
+        "name": "Andrés Rivera",
+        "date": "Hace 2 semanas",
+        "rating": 4,
+        "review": "Los productos son de calidad, aunque podrían ser un poco más accesibles.",
+        "photo": "https://media.istockphoto.com/id/1200677760/es/foto/retrato-de-apuesto-joven-sonriente-con-los-brazos-cruzados.jpg?s=612x612&w=0&k=20&c=RhKR8pxX3y_YVe5CjrRnTcNFEGDryD2FVOcUT_w3m4w="
+    },
+    {
+        "name": "Camila Díaz",
+        "date": "Hace 3 semanas",
+        "rating": 5,
+        "review": "Todo perfecto, llegó antes de lo esperado. Muy agradecida.",
+        "photo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZzQKmZ4Tj1pHjEdDdVPAEYp3khIqw_9R4LnIFVSnFAGD9yq3wkJRiLF3NKU5bIAj7JCE&usqp=CAU"
+    },
+    {
+        "name": "Javier Sánchez",
+        "date": "Hace un mes",
+        "rating": 4,
+        "review": "Buena calidad, aunque el tamaño no era lo que esperaba.",
+        "photo": "https://plus.unsplash.com/premium_photo-1682096259050-361e2989706d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aG9tYnJlJTIwam92ZW58ZW58MHx8MHx8fDA%3D"
+    },
+    {
+        "name": "Isabella Ruiz",
+        "date": "Hace un mes",
+        "rating": 5,
+        "review": "¡Estoy encantada! Definitivamente recomendaré este lugar.",
+        "photo": "https://img.freepik.com/foto-gratis/pareja-afro-americana-enfrente-casa_23-2148012863.jpg"
+    }
+]
